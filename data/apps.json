@@ -1,0 +1,76 @@
+{
+  "slots": 6,
+  "emptySlotTeases": [
+    "Your idea here",
+    "Next build"
+  ],
+  "apps": [
+    {
+      "id": "school",
+      "name": "School Hub",
+      "tagline": "Grade 10 · Fish Hoek High",
+      "emoji": "⚡",
+      "accent": "#a78bfa",
+      "vibe": "ACADEMIC",
+      "port": 8765,
+      "installDir": "~/Documents/connor-school-hub",
+      "altInstallDirs": ["~/connor-school-hub"],
+      "repoUrl": "https://github.com/Gaz444-lab/connor-school-hub.git",
+      "launchScript": "launch.sh",
+      "pidFile": ".server.pid",
+      "url": "http://127.0.0.1:8765/",
+      "order": 1,
+      "state": "active"
+    },
+    {
+      "id": "writing",
+      "name": "Writing App",
+      "tagline": "Drafts, stories & school writing",
+      "emoji": "✒️",
+      "accent": "#38bdf8",
+      "vibe": "STUDIO",
+      "port": 8767,
+      "installDir": "~/Documents/connor-writing-app",
+      "altInstallDirs": ["~/connor-writing-app"],
+      "repoUrl": "",
+      "launchScript": "launch.sh",
+      "pidFile": ".server.pid",
+      "url": "http://127.0.0.1:8767/",
+      "order": 2,
+      "state": "planned",
+      "tease": "Coming online soon · pulling from other account later"
+    },
+    {
+      "id": "watch",
+      "name": "Watch Hub",
+      "tagline": "Neon Deck · shows & movies",
+      "emoji": "🎞",
+      "accent": "#c8f542",
+      "vibe": "CINEMA",
+      "port": 8766,
+      "installDir": "~/Documents/connor-watch-hub",
+      "altInstallDirs": ["~/connor-watch-hub"],
+      "repoUrl": "https://github.com/Gaz444-lab/connor-watch-hub.git",
+      "launchScript": "launch.sh",
+      "pidFile": ".server.pid",
+      "url": "http://127.0.0.1:8766/",
+      "order": 3,
+      "state": "active"
+    },
+    {
+      "id": "mystery-hollow",
+      "name": "Mystery Hollow",
+      "tagline": "Detective life sim · Godot",
+      "emoji": "🔎",
+      "accent": "#f59e0b",
+      "vibe": "GAME",
+      "installDir": "~/mystery-hollow",
+      "altInstallDirs": ["~/Documents/mystery-hollow"],
+      "repoUrl": "",
+      "launchScript": "launch.sh",
+      "fallbackLaunch": "Mystery Hollow.command",
+      "order": 4,
+      "state": "external"
+    }
+  ]
+}
