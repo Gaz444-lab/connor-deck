@@ -344,6 +344,7 @@
   btnUpdateAll.addEventListener("click", () => void runUpdateAll());
   document.addEventListener("keydown", onKey);
   void refresh();
-  // light poll so ONLINE/OFFLINE stays honest while apps run
-  setInterval(() => void refresh(), 12_000);
+  // No auto-poll: full refresh every N seconds rebuilt the whole grid and felt
+  // like constant reloading. Status updates on open, after Launch/Stop/Update,
+  // and when Connor hits Refresh / R.
 })();
